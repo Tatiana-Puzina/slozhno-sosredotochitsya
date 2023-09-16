@@ -25,6 +25,6 @@
   }
 
   .theme_light .footer__title {
-    text-shadow: 4px 4px 0px var(--title-decor, #ff8dcb);
+    text-shadow: 2px 2px 0px var(--title-decor, #ff8dcb);
   }
 }
