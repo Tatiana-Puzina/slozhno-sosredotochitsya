@@ -12,7 +12,7 @@
 }
 
 .header {
-  height: 91vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(7, 1fr);
@@ -233,7 +233,7 @@
 }
 
 .footer {
-  height: 91vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -298,10 +298,6 @@
 }
 
 @media (width<=768px) {
-  .header {
-    height: 121.5vh;
-  }
-
   .header__theme-menu {
     grid-row: 2 / 3;
     grid-column: -2 / -1;
@@ -346,10 +342,6 @@
     width: 25%;
   }
 
-  .footer {
-    height: 121.5vh;
-  }
-
   .footer::before {
     bottom: 22px;
   }
@@ -369,7 +361,6 @@
 
 @media (width<=375px) {
   .header {
-    height: 79vh;
     padding: 10px;
     margin-block-end: 40px;
   }
@@ -434,10 +425,6 @@
     flex-direction: column;
     gap: 10px;
     margin-block-start: 10px;
-  }
-
-  .footer {
-    height: 79vh;
   }
 
   .footer__title {
