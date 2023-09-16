@@ -3,11 +3,6 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font, "IBM Plex mono");
-  background-image: var(--bg-img);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   background-color: var(--bg-color, #000028);
 }
 
@@ -17,7 +12,10 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(7, 1fr);
   position: relative;
-
+  background-image: var(--bg-img);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 20px;
   margin-block-end: 60px;
 }
