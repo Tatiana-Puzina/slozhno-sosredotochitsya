@@ -9,11 +9,11 @@
   --title-decor: #ff8dcb;
   --bg-color: #fff1f7;
   --color-text: #353430;
-  --color-nav: var(--color-text, #353430);
+  --color-nav: var(--color-text);
   --color-caption: #ffc2e6;
   --color-shadow: #ff0070;
-  --color-content-caption: var(--color-text, #353430);
-  --color-content-subcaption: var(--color-text, #353430);
+  --color-content-caption: var(--color-text);
+  --color-content-subcaption: var(--color-text);
   --bg-img: url(../images/cover-image-light.png);
   --visibility: hidden;
   --border-hover: rgba(50, 49, 45, 0.4);

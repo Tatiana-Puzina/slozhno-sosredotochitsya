@@ -5,15 +5,16 @@
 */
 
 .page.theme_dark {
-  --main-font: "IBM Plex mono", "Roboto";
+  --main-font: "IBM Plex mono";
   --title-decor: #ff0070;
-  --color-nav: var(--title-decor, #ff0070);
+  --color-nav: var(--title-decor);
   --bg-color: #000028;
   --color-text: #f1b2ce;
   --color-caption: #db00ff;
-  --color-shadow: var(--title-decor, #ff0070);
+  --color-shadow: var(--title-decor);
   --color-content-caption: #ff0070;
   --color-content-subcaption: #000028;
   --bg-img: url(../images/cover-image-dark.png);
   --visibility: visible;
+  --border-hover: rgba(255, 0, 112, 0.4);
 }
