@@ -1,3 +1,3 @@
 # slozhno-sosredotochitsya
 Проект "Сложно сосредоточиться"
-[Ссылка на проект](git@github.com:Tatiana-Puzina/slozhno-sosredotochitsya.git)
+[Ссылка на проект](https://github.com/Tatiana-Puzina/slozhno-sosredotochitsya.git)
