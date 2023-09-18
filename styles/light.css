@@ -16,7 +16,7 @@
   --color-content-subcaption: var(--color-text);
   --bg-img: url(../images/cover-image-light.png);
   --visibility: hidden;
-  --border-hover: rgba(50, 49, 45, 0.4);
+  --border-hover: rgba(255, 0, 112, 0.4);
 }
 
 @media (width<=768px) {
@@ -44,21 +44,21 @@
     --visibility: hidden;
   }
   .header__theme-menu-button:hover {
-    border: 1px solid rgba(255, 0, 112, 0.40);
+    border: 1px solid rgba(255, 0, 112, 0.4);
   }
 
   .card__link:hover {
-    border-bottom: 1px solid rgba(255, 0, 112, 0.40);
+    border-bottom: 1px solid rgba(255, 0, 112, 0.4);
   }
 
   .header__theme-menu-button:focus-visible {
     outline: none;
-    border-bottom: 1px solid #FF0070;;
+    border-bottom: 1px solid #ff0070;
   }
-  
+
   .card__link:focus-visible {
     outline: none;
-    border: 1px solid #F1B2CE;
-    border-bottom: 1px solid #FF0070;;
+    border: 1px solid #f1b2ce;
+    border-bottom: 1px solid #ff0070;
   }
 }
