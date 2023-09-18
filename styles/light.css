@@ -28,3 +28,37 @@
     text-shadow: 2px 2px 0px var(--title-decor, #ff8dcb);
   }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-font: "IBM Plex mono";
+    --title-decor: #ff8dcb;
+    --bg-color: #fff1f7;
+    --color-text: #353430;
+    --color-nav: var(--color-text, #353430);
+    --color-caption: #ffc2e6;
+    --color-shadow: #ff0070;
+    --color-content-caption: var(--color-text, #353430);
+    --color-content-subcaption: var(--color-text, #353430);
+    --bg-img: url(../images/cover-image-light.png);
+    --visibility: hidden;
+  }
+  .header__theme-menu-button:hover {
+    border: 1px solid rgba(255, 0, 112, 0.40);
+  }
+
+  .card__link:hover {
+    border-bottom: 1px solid rgba(255, 0, 112, 0.40);
+  }
+
+  .header__theme-menu-button:focus-visible {
+    outline: none;
+    border-bottom: 1px solid #FF0070;;
+  }
+  
+  .card__link:focus-visible {
+    outline: none;
+    border: 1px solid #F1B2CE;
+    border-bottom: 1px solid #FF0070;;
+  }
+}
