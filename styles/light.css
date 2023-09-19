@@ -17,6 +17,7 @@
   --bg-img: url(../images/cover-image-light.png);
   --visibility: hidden;
   --border-hover: rgba(255, 0, 112, 0.4);
+  --button-focus: #ff0070;
 }
 
 @media (width<=768px) {
@@ -35,30 +36,32 @@
     --title-decor: #ff8dcb;
     --bg-color: #fff1f7;
     --color-text: #353430;
-    --color-nav: var(--color-text, #353430);
+    --color-nav: var(--color-text);
     --color-caption: #ffc2e6;
     --color-shadow: #ff0070;
-    --color-content-caption: var(--color-text, #353430);
-    --color-content-subcaption: var(--color-text, #353430);
+    --color-content-caption: var(--color-text);
+    --color-content-subcaption: var(--color-text);
     --bg-img: url(../images/cover-image-light.png);
     --visibility: hidden;
+    --border-hover: rgba(255, 0, 112, 0.4);
+    --button-focus: #ff0070;
   }
   .header__theme-menu-button:hover {
-    border: 1px solid rgba(255, 0, 112, 0.4);
+    border: 1px solid var(--border-hover, rgba(255, 0, 112, 0.4));
   }
 
   .card__link:hover {
-    border-bottom: 1px solid rgba(255, 0, 112, 0.4);
+    border-bottom: 1px solid var(--color-text, #353430);
   }
 
   .header__theme-menu-button:focus-visible {
     outline: none;
-    border-bottom: 1px solid #ff0070;
+    border-bottom: 1px solid (var--button-focus, #ff0070);
   }
 
   .card__link:focus-visible {
     outline: none;
-    border: 1px solid #f1b2ce;
-    border-bottom: 1px solid #ff0070;
+    border: 1px solid var(--color-text, #353430);
+    border-bottom: 1px solid var(--color-text, #353430);
   }
 }

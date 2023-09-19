@@ -14,5 +14,6 @@
   --color-content-subcaption: #000028;
   --bg-img: url(../images/cover-image-dark.png);
   --visibility: visible;
-  --border-hover: rgba(50, 49, 45, 0.40);
+  --border-hover: rgba(50, 49, 45, 0.4);
+  --button-focus: #353430;
 }
