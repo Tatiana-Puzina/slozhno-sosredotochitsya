@@ -379,8 +379,12 @@
     width: 100%;
   }
 
+  .card__title-text {
+    line-height: 22.6px;
+  }
+
   .card__subcaption {
-    line-height: 21px;
+    line-height: 22.8px;
   }
 
   .card__text {
