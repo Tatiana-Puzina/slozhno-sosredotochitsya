@@ -20,16 +20,6 @@
   --button-focus: #ff0070;
 }
 
-@media (width<=768px) {
-  .theme_light .header__theme-caption {
-    text-shadow: 4px 4px 0px var(--title-decor, #ff8dcb);
-  }
-
-  .theme_light .footer__title {
-    text-shadow: 2px 2px 0px var(--title-decor, #ff8dcb);
-  }
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: "IBM Plex mono";
@@ -63,5 +53,15 @@
     outline: none;
     border: 1px solid var(--color-text, #353430);
     border-bottom: 1px solid var(--color-text, #353430);
+  }
+}
+
+@media (width<=770px) {
+  .header__theme-caption {
+    text-shadow: 4px 4px 0px var(--title-decor, #ff8dcb);
+  }
+
+  .footer__title {
+    text-shadow: 2px 2px 0px var(--title-decor, #ff8dcb);
   }
 }
