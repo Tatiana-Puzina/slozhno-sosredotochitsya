@@ -256,8 +256,7 @@
 }
 
 .header__theme-menu-button:hover {
-  color: var(--button-focus, #353430);
-  border: 1px solid var(--border-hover, rgba(50, 49, 45, 0.4));
+  border: 1px solid var(--border-hover, rgba(255, 0, 112, 0.4));
   cursor: pointer;
 }
 
@@ -267,7 +266,7 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--button-focus, #353430);
+  border-bottom: 1px solid var(--button-focus, #ff0070);
 }
 
 .card__link:focus-visible {
