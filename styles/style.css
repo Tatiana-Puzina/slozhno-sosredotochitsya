@@ -271,8 +271,8 @@
 
 .card__link:focus-visible {
   outline: none;
-  border: 1px solid var(--color-text);
-  border-bottom: 1px solid var(--color-text);
+  border: 1px solid var(--color-text, #f1b2ce);
+  border-bottom: 1px solid var(--color-text, #f1b2ce);
 }
 
 @media (width<=770px) {
