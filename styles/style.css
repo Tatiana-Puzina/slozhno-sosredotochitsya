@@ -256,7 +256,9 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-hover, rgba(255, 0, 112, 0.4));
+  outline: 1px solid var(--border-hover, rgba(255, 0, 112, 0.4));
+  outline-offset: 0;
+  /* border: 1px solid var(--border-hover, rgba(255, 0, 112, 0.4)); */
   cursor: pointer;
 }
 
@@ -270,9 +272,11 @@
 }
 
 .card__link:focus-visible {
-  outline: none;
-  border: 1px solid var(--color-text, #f1b2ce);
-  border-bottom: 1px solid var(--color-text, #f1b2ce);
+  outline: 1px solid var(--color-text, #f1b2ce);
+  outline-offset: 0;
+  /* outline: none; */
+  /* border: 1px solid var(--color-text, #f1b2ce); */
+  /* border-bottom: 1px solid var(--color-text, #f1b2ce); */
 }
 
 @media (width<=770px) {
