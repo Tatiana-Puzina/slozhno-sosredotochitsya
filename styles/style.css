@@ -251,7 +251,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--color-nav); 
+  border: 1px solid var(--color-nav);
   pointer-events: none;
 }
 
@@ -265,15 +265,15 @@
   border-bottom: 1px solid var(--color-text, #f1b2ce);
 }
 
-.header__theme-menu-button:focus-visible {  
+.header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--button-focus, #353430);
 }
 
-.card__link:focus-visible { 
-   outline: none; 
-   border: 1px solid var(--color-text, #f1b2ce);
-   /* border-bottom: 1px solid var(--color-text, #f1b2ce);  */
+.card__link:focus-visible {
+  outline: none;
+  border: 1px solid var(--color-text, #f1b2ce);
+  border-bottom: 1px solid var(--color-text, #f1b2ce);
 }
 
 @media (width<=770px) {
